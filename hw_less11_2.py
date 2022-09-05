@@ -1,16 +1,11 @@
-# import datetime
-# a = datetime.date(year=2000, month=1, day=1)
-# b = datetime.date(year=2021, month=2, day=17)
-# print(int((b-a).days / (365.2425)))
-
-a=input("Введите день рождения")
-b=input("Введите месяц рождения")
-c=input("Введите год рождения")
-# d=("Вы родились "+a+" числа "+b+"-го месяца "+c+" года")
-# print (d)
-if 1<=int(a)<=31:
-    print("Данные приняты")
-elif 1<=int(b)<=12:
-elif 1<=int(c)<=2022:
+birth_day=input("Введите день рождения ")
+birth_month=input("Введите месяц рождения ")
+birth_year=input("Введите год рождения ")
+cur_day=5 # Текущий день
+cur_month=9 # Текущий месяц
+cur_year=2022 # Текущий год
+if cur_month==int(birth_month) and cur_day>=int(birth_day) or cur_month>int(birth_month):
+    my_year=cur_year-int(birth_year)
 else:
-    print("Число не корректно")
+    my_year = cur_year-int(birth_year)-1
+print("Ваш возраст"+" "+str(my_year)+" "+"полных лет")
