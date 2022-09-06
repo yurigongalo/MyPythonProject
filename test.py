@@ -1,10 +1,7 @@
-chislo=input("Введите трехзначное число")
-try:
-    a = int(chislo[0])
-    b = int(chislo[1])
-    c = int(chislo[2])
-except ValueError:
-    print("Вы ввели не число")
+chislo=input("Введите число, крастное ПЯТИ")
+result=int(chislo)/5
+if type(result)==float:
+    print("Число не является кратным ПЯТИ")
 else:
-d=a+b+c
-print("Сумма трех введенных чисел"+" "+str(d))
+    print("Число делится на 5 без остатка")
+
