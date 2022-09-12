@@ -1,8 +1,6 @@
-chislo=int(input("Введите число"))
-obr=0
-while chislo>0:
-    cifra=chislo%10
-    chislo=chislo//10
-    obr=obr*10
-    obr=obr+cifra
-print("Обратное число: "+str(obr))
+lower = int(input("Введите нижнюю границу диапазона:"))
+upper = int(input("Введите верхнюю границу диапазона:"))
+n = int(input("Введите делитель:"))
+for i in range(lower, upper + 1):
+    if(i % n == 0):
+        print(i)
