@@ -7,17 +7,7 @@ for i in range(x):
         a = int(input("Заполните матрицу значениями:"))
         ListA1.append(a)
     ListA.append(ListA1)
-# for i in ListA:
-#     print (i)
-# print("*******")
-# for i in range(x):
-#     for j in range(y):
-#         if i == j:
-#             print(ListA[i][j])
-# print("*******")
-# print("*******")
 maximum = ListA[0][0]
-# print (maximum)
 for i in ListA:
     print (i)
 for i in range(0,len(ListA)):
