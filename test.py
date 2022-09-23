@@ -1,3 +1,12 @@
-MyList=[1,2,3,4,5,6,7,8,9,10,11,12,13,14]
-MyList.pop(0)
-print(MyList)
+x = int(input("Введите колличество строк матрицы:"))
+y = int(input("Введите колличество столбцов матрицы:"))
+ListA = []
+for i in range(x):
+    ListA1 = []
+    for k in range(y):
+        a = int(input("Заполните матрицу значениями:"))
+        ListA1.append(a)
+    ListA.append(ListA1)
+    for k in ListA:
+        if k==i:
+            print(n)
