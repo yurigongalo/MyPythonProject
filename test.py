@@ -1,12 +1,8 @@
-x = int(input("Введите колличество строк матрицы:"))
-y = int(input("Введите колличество столбцов матрицы:"))
-ListA = []
-for i in range(x):
-    ListA1 = []
-    for k in range(y):
-        a = int(input("Заполните матрицу значениями:"))
-        ListA1.append(a)
-    ListA.append(ListA1)
-    for k in ListA:
-        if k==i:
-            print(n)
+a = (1,2,3,4)
+print(type(a))
+b = 1,2,3,4
+print(type(b))
+c = [1,2,3,4]
+print(type(c))
+d = {1,2,3,4}
+print(type(d))
