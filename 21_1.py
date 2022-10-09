@@ -10,8 +10,9 @@ for line in content:
 srednia = 0
 print("Ниже 3 баллов:")
 for p in pupils:
-    srednia += int(p[2])
+    srednia = srednia + int(p[2])
     if p[2] < 3:
-        print(f"{p[0]} {p[1]}: {p[2]}")
-srednia /= len(pupils)
-print(f"Средняя оценка по классу: {srednia}")
+        # print(f"{p[0]} {p[1]}: {p[2]}")
+        print(p[0],p[1],p[2])
+srednia = srednia / len(pupils)
+print("Средняя оценка по классу:",srednia)
