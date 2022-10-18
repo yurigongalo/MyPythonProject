@@ -1,13 +1,16 @@
 import random
-n = int(input("Введите кол-во элементов массива"))
-def func(a,niz,verh):
+n = int(input("Введите кол-во элементов массива:"))#По условиям задачи не ясно сколько раз
+def func(niz,verh):
     for i in range(n):
-       a[i] = random.randint(niz,verh)
-a = [0] * n
+       a[i] = random.randint(niz,verh)# Рандомим числа  из диапазона
+a = [0] * n # Делаем список и заполняем его нолями
 p = int(input("Введите нижний предел диапазона:"))
 q = int(input("Введите верхний предел диапазона:"))
-func(a,p,q)
+func(p,q)
 print(a)
+
+
+
 
 # from random import random
 # N = 10
