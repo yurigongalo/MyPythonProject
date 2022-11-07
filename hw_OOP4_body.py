@@ -1,4 +1,4 @@
-from hw_OOP3 import Animal,_Tiger,Monkey,Wolf
+from hw_OOP4 import Animal,_Tiger,Monkey,Wolf
 Animal1 = Animal("Лев","Мужчина","Взрослый уже")
 Animal1.hello()
 Animal1.Sex()
