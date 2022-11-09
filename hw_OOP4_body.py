@@ -3,10 +3,10 @@ Animal1 = Animal("Лев","Мужчина","Взрослый уже")
 Animal1.hello()
 Animal1.Sex()
 Animal1.Age()
-Tiger1 = _Tiger("Тигр","Мужчина",'малой')
+Tiger1 = _Tiger("Тигр","Мужчина",'малой') # пример protected инкапсуляции
 Tiger1.hello()
 Tiger1.Sex()
-Tiger1.run()
+Tiger1._run() # пример protected инкапсуляции
 Monkey1 = Monkey("Обезьяна",'девочка',"В самом рассвете сил")
 Monkey1.hello()
 Monkey1.Sex()

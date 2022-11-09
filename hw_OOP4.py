@@ -9,10 +9,10 @@ class Animal:
         print('его пол: ' + self.sex)
     def Age(self):
         print('возраст животного: ' + self.age)
-class _Tiger(Animal):
+class _Tiger(Animal):# пример protected инкапсуляции
     def __init__(self, name, sex, age):
         super().__init__(name,sex, age)
-    def run(self):
+    def _run(self):# пример protected инкапсуляции
         print("Тигр бегает")
 class Monkey(Animal):
     def __init__(self,name,sex,age):
