@@ -40,45 +40,6 @@ curs.execute(ins13)
 curs.execute(ins14)
 curs.execute(ins15)
 curs.execute(ins16)
-
-ins17 = """INSERT INTO participants VALUES("Ivanov Ivan", "10/10/2022", "11/10/2022", "The best of the best doklad", "tezisy posrtupili", \
-"11/10/2022","YES","12/10/2022");"""
-ins18 = """INSERT INTO participants VALUES("Sidiriv Sidor", "10/10/2022", "11/10/2022", "doklad of thr best", "tezisy posrtupili", \
-"12/10/2022","YES","13/10/2022");"""
-ins19 = """INSERT INTO participants VALUES("Petr Petrov", "10/10/2022", "11/10/2022", "the best of the best", "tezisy number one", \
-"12/10/2022","NO","12/10/2022");"""
-ins20 = """INSERT INTO participants VALUES("Paul Dike", "09/10/2022", "10/10/2022", "the best of the best of the best", "postupili posrtupili", \
-"11/10/2022","YES","13/10/2022");"""
-ins21 = """INSERT INTO participants VALUES("Sergey Sergeev", "09/10/2022", "10/10/2022", "the best of the best of the best", "postupili posrtupili", \
-"11/10/2022","YES","13/10/2022");"""
-ins22 = """INSERT INTO participants VALUES("Alyaxander Alyaxandrov", "11/10/2022", "11/10/2022", "the best of the best of the best", "postupili posrtupili", \
-"11/10/2022","YES","13/10/2022");"""
-curs.execute(ins17)
-curs.execute(ins18)
-curs.execute(ins19)
-curs.execute(ins20)
-curs.execute(ins21)
-curs.execute(ins22)
-
-ins23 = """INSERT INTO information VALUES("The best conference", "12/10/2022", "Minsk", "BGMU", "Proctor & Gamble", \
-"11/10/2022","6","12");"""
-ins24 = """INSERT INTO information VALUES("conference of the best", "12/10/2022", "Minsk", "BGMU", "Proctor & Gamble", \
-"11/10/2022","6","12");"""
-ins25 = """INSERT INTO information VALUES("the best of the best", "12/10/2022", "Minsk", "BGMU", "Proctor & Gamble", \
-"11/10/2022","6","12");"""
-ins26 = """INSERT INTO information VALUES("The best of the best of the best", "12/10/2022", "Minsk", "BGMU", "Proctor & Gamble", \
-"11/10/2022","6","12");"""
-ins27 = """INSERT INTO information VALUES("Puper puper conference", "12/10/2022", "Minsk", "BGMU", "Proctor & Gamble", \
-"11/10/2022","6","12");"""
-ins28 = """INSERT INTO information VALUES("Medical life", "12/10/2022", "Minsk", "BGMU", "Proctor & Gamble", \
-"11/10/2022","6","12");"""
-curs.execute(ins23)
-curs.execute(ins24)
-curs.execute(ins25)
-curs.execute(ins26)
-curs.execute(ins27)
-curs.execute(ins28)
-
 conn.commit()
 curs.close()
 conn.close()
